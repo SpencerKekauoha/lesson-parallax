@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,700);
+
+.parallax-container {
+  position: relative;
+  height: 640px;
+  width: 100%;
+  background-image: url('./images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+/*move left branch down on scroll*/
+
+.left-branch {
+  position: absolute;
+  z-index: 999;
+}
+
+/*move right branch up on scroll*/
+
+.right-branch {
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  z-index: 999;
+}
+
+.vader {
+  position: absolute;
+  margin: 0 auto;
+}
+
+.vader-title-container h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.lorem p {
+  margin-top: 20vh;
+}
