@@ -33,14 +33,69 @@
   margin: 0 auto;
 }
 
+.vader-title-container {
+  height: 100vh;
+  background: black;
+}
+
 .vader-title-container h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 50px;
   font-weight: 700;
   text-align: center;
-  margin-top: 10vh;
+  color: white;
+  background: black;
 }
 
-.lorem p {
+.lorem {
   margin-top: 20vh;
+  background: black;
+}
+
+@media (max-width: 425px) {
+  .parallax-container {
+    width: 100%;
+    height: 200px !important;
+  }
+  .left-branch {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    bottom: 0;
+  }
+  .right-branch {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 999;
+  }
+  .vader {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .parallax-container {
+    width: 100%;
+    height: 400px
+  }
+  .left-branch {
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    bottom: 0;
+  }
+  .right-branch {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    z-index: 999;
+  }
+  .vader {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
 }
